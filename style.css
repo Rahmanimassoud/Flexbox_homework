@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+
+.main {
+    width: 900px;
+    height: 100vh;
+    background-color: rgb(233,237,214);
+    margin: 0 auto;
+    padding: 5px;
+}
+h1 {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+/* navbar header */
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(188,0,0);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.header a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.header a:hover {
+    box-shadow: 5px 5px 10px rgb(55, 55, 105);
+}
+
+/* image and ptag section */
+
+.image-ptag {
+    display: flex;
+    margin-top: 5px;
+}
+.main_img {
+    flex: 1;
+}
+.main_img img {
+    width: 90%;
+    height: 90%;
+}
+.midel_content {
+    flex: 2;
+    margin-left: 3px;
+}
+.midel_content h3 {
+    margin-bottom: 40px;
+}
+/* bellow is hardcoded */
+.midel_content p {
+    margin-top: 100px;     
+}
+.midel_content span {
+    color: red;
+}
+
+/* Our Top Products section */
+.products {
+    display: flex;
+}
+.products h3 {
+    margin-bottom: 10px;
+}
+.products a, span{
+    text-decoration: none;
+    color: red;
+}
+#top_products {
+    flex: 1;
+    margin-left: 5px;
+}
+#top_products li {
+    margin-left: 30px;
+}
+/* ways to order section */
+#ways_to_order {
+    flex: 2;
+}
+#empty_section {
+    flex: 3;
+    margin-left: 20px;
+}
+
+/* The 6 imgs section */
+.botomimg {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.small_imgs {
+    height: 100%;
+    width: 100px;
+    box-shadow: 5px 5px 10px rgb(26, 26, 46);
+}
+.small_imgs:hover {
+    box-shadow: 5px 5px 10px blue;
+}
+
+/* footer section */
+hr{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.footer h4 {
+    margin-top: 10px;
+}
+.footer span {
+    color: burlywood;
+}
+
+#form {
+    margin-top: 15px;
+}
+
+.input_typ {
+    background-color: rgb(36, 45, 45);
+    padding: 2px;
+    border-radius:10px;
+    cursor: pointer;
+    margin: 1px;
+}
+.form_btn {
+    background-color: rgb(36, 45, 45);
+    color: gray;
+    margin-top: 2px;
+    border-radius: 10px;
+    padding: 2px;
+    cursor: pointer;
+    
+}
+.form_btn:hover {
+    background-color: brown;
+}
+.input_typ:hover {
+    background-color: brown;
+}
